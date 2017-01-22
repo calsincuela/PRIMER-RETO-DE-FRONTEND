@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+.main-header{
+	background-color: yellow;
+	width:90%;
+	margin: 1em auto;
+	text-align: center;
+	line-height: 3em;
+}
+
+.main-nav{
+	background-color: orange;
+	width: 23%;
+	text-align: center;
+}
+
+.main-container{
+	display: flex;
+	justify-content: space-between;
+	width:90%;
+	margin: 0 auto;
+}
+
+.main{
+	background-color: palegreen;
+	width: 75%;
+	padding: 20px;
+}
+.main-footer{
+	background-color: #FFFF00;
+	width:90%;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.article{
+	background-color: skyblue;
+	padding: 10px;
+	margin: 1% 0;
+}
